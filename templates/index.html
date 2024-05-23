@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SHA-256 Hash Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #dfd3c3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 100%;
+            font-size: 18px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        input[type="submit"] {
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #9f8473;
+            color: #dfd3c3;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SHA-256 Hash Converter</h1>
+        <form method="POST">
+            <textarea name="text" rows="5" cols="50"></textarea><br>
+            <input type="submit" value="Convert">
+        </form>
+    </div>
+</body>
+</html>
